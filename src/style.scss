@@ -1,0 +1,35 @@
+.navBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(62, 62, 62);
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .anchor {
+        color: white;
+        text-decoration: none;
+        
+        &:link,
+        &:visited {
+            color: white;
+        }
+    }
+
+}
+.navLogo{
+    width: 200px;
+    margin-right: 30px;
+}
+
+.cart{
+    width: 30px;
+}
+.prop{
+    text-align: center;
+}
